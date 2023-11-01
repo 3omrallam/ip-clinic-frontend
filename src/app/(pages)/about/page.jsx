@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function About() {
-  const xLasdasd;
+  const esLintTest = 'test';
   return (
     <div>
       <p>about page</p>
