@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <p>about page</p>
+      <p>about page component</p>
     </div>
   );
 }
