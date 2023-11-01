@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --no-cache"
+    "lint": "next lint --no-cache",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "14.0.1",
@@ -16,6 +17,8 @@
     "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8.52.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -26,6 +29,7 @@
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
   }
