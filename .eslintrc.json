@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "next",
+    "airbnb"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "import/no-extraneous-dependencies": ["off", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}],
+    "prettier/prettier" : ["error"],
+    "no-var": ["warn"], // Don't use var to define variable just use [ let , const ]
+    "no-console": "warn" // Delete all console.log before push your code on branch
+  }
+}
