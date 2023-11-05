@@ -43,7 +43,7 @@ ij_sass_use_double_quotes = true
 ij_sass_value_alignment = 0
 
 [*.scss]
-indent_size = 10
+indent_size = 2
 indent_style = space
 tab_width = 2
 ij_scss_align_closing_brace_with_properties = false

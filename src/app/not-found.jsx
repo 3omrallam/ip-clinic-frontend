@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * Not Found Page Handler
+ * @returns Not Found Page UI
+ */
 export default function NotFound() {
   return (
     <div>
