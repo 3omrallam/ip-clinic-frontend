@@ -5,7 +5,7 @@ import React from 'react';
  * @returns About page details
  */
 export default function About() {
-  const esLintTest = 'title';
+  const esLintTest = 'title'
 
   /**
    * Add two numbers.
